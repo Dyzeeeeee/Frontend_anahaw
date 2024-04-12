@@ -224,8 +224,13 @@ const router = createRouter({
         //     name: 'accessDenied',
         //     component: () => import('@/views/pages/auth/Access.vue')
         // },
+        // {
+        //     path: '/test',
+        //     name: 'test',
+        //     component: () => import('@/views/Test.vue')
+        // },
         {
-            path: '/test',
+            path: '/',
             name: 'test',
             component: () => import('@/views/Test.vue')
         }
